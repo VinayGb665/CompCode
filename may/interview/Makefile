@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-Wall
 DEPS = ''
-FILE = 3Sum
+FILE = ValidAnagram
 compile :
 	$(CC) $(CFLAGS) $(FILE).cpp -o $(FILE).o
 run :compile
