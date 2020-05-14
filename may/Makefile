@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-Wall
 DEPS = ''
-FILE = NumberComplement
+FILE = Trie
 compile :
 	$(CC) $(CFLAGS) $(FILE).cpp -o $(FILE).o
 run :compile
